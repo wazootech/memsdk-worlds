@@ -1,0 +1,38 @@
+{
+  "name": "memsdk-worlds",
+  "version": "0.0.0",
+  "description": "Worlds-backed implementation of the memsdk Supermemory-compatible memory interface.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wazootech/memsdk-worlds.git"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepare": "npm run build",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "memsdk": "github:wazootech/memsdk#initial-scaffold"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "prettier": "^3.9.5",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}
