@@ -1,4 +1,4 @@
-import type { MemoryClient } from "memsdk"
+import type { SupermemoryInterface } from "memsdk"
 
 export interface WorldsMemoryClientOptions {
   worldsClient: unknown
@@ -6,6 +6,6 @@ export interface WorldsMemoryClientOptions {
 
 export function createWorldsMemoryClient(
   _options: WorldsMemoryClientOptions,
-): MemoryClient {
+): SupermemoryInterface {
   throw new Error("createWorldsMemoryClient is not implemented yet")
 }
