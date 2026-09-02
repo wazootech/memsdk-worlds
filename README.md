@@ -12,6 +12,7 @@ and governed write policy internally.
 - Establish the adapter package boundary.
 - Depend on the review branch for `memsdk` while the core contract is not yet merged or
   published.
-- Define the Worlds factory options and exported factory name.
+- Define the Worlds factory options (exported factory name settled:
+  `createSupermemory`).
 
 The implementation intentionally throws until the first mapping PR lands.

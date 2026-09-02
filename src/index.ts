@@ -4,8 +4,8 @@ export interface WorldsMemoryClientOptions {
   worldsClient: unknown
 }
 
-export function createWorldsMemoryClient(
+export function createSupermemory(
   _options: WorldsMemoryClientOptions,
 ): SupermemoryInterface {
-  throw new Error("createWorldsMemoryClient is not implemented yet")
+  throw new Error("createSupermemory is not implemented yet")
 }
