@@ -30,14 +30,14 @@ const memory = createSupermemory({
 })
 
 // All SupermemoryInterface methods are available:
-await memory.add({
+// Supermemory API v5 contract: every call is scoped to a namespace.
+await memory.add("user_123", {
   content: "Dhravya prefers ML over traditional programming.",
-  containerTag: "user_123",
 })
 
-const profile = await memory.profile({ containerTag: "user_123" })
+const profile = await memory.profile("user_123")
 
-const docs = await memory.documents.list({ containerTags: ["user_123"] })
+const docs = await memory.list("user_123", "documents")
 
-const results = await memory.search.documents({ q: "ML", containerTag: "user_123" })
+const results = await memory.search("user_123", { query: "ML" })
 ```
