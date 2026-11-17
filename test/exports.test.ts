@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest"
-import { createSupermemory } from "../src/index.ts"
+import { createSupermemory } from "@memsdk-worlds"
 
 describe("memsdk-worlds exports", () => {
   it("exposes an explicit Worlds factory stub", () => {

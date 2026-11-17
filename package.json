@@ -24,7 +24,7 @@
     "format:check": "prettier --check .",
     "prepare": "npm run build",
     "test": "vitest run",
-    "typecheck": "tsc -p tsconfig.json --noEmit"
+    "typecheck": "tsc -p tsconfig.json --noEmit && tsc -p tsconfig.test.json"
   },
   "dependencies": {
     "memsdk": "github:wazootech/memsdk#main"
