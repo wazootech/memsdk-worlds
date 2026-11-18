@@ -1,3 +1,14 @@
+<p align="center">
+  <a href="https://docs.wazoo.dev">
+    <img src="https://wazoo.dev/assets/wazoo.svg" alt="Wazoo" width="120" />
+  </a>
+  <br /><br />
+  <em>A work-in-progress memsdk adapter for storing agent memory in Wazoo Worlds.</em>
+  <br /><br />
+  <a href="https://github.com/wazootech/memsdk-worlds"><img src="https://img.shields.io/badge/GitHub-black?logo=github" alt="GitHub" /></a>
+  <a href="https://deepwiki.com/wazootech/memsdk-worlds"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki" /></a>
+</p>
+
 # memsdk-worlds
 
 `memsdk-worlds` will implement the `memsdk` Supermemory-compatible memory interface
