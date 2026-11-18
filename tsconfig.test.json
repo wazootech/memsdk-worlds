@@ -3,7 +3,7 @@
   "compilerOptions": {
     "noEmit": true,
     "paths": {
-      "@memsdk-worlds": ["./src/index.ts"]
+      "@": ["./src/index.ts"]
     },
     "rootDir": "."
   },

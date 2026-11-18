@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest"
-import { createSupermemory } from "@memsdk-worlds"
+import { createSupermemory } from "@"
 
 describe("memsdk-worlds exports", () => {
   it("exposes an explicit Worlds factory stub", () => {
